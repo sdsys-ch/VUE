@@ -20,6 +20,9 @@ plugins {
 
 repositories {
     mavenCentral()
+    maven {
+      url = "https://netbeans.apidesign.org/maven2/"
+    }
 }
 
 group = "edu.tufts.vue"
