@@ -21,7 +21,10 @@ plugins {
 repositories {
     mavenCentral()
     maven {
-      url = "https://netbeans.apidesign.org/maven2/"
+        url = "https://netbeans.apidesign.org/maven2/"
+    }
+    maven {
+        url = "https://maven.repository.redhat.com/ga/"
     }
 }
 
